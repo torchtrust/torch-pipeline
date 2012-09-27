@@ -16,7 +16,7 @@
             <dt>Organization:</dt>
             <dd px:role="organization" href="http://www.torchtrust.org/">Torch Trust</dd>
             <dt>E-mail:</dt>
-            <dd><a px:role="contact" href="mailto:paulw@torchtrust.org">paulw@torchtrust.org</a></dd>
+            <dd><a px:role="contact" href="mailto:paulw.torchtrust@gmail.com">paulw.torchtrust@gmail.com</a></dd>
         </dl>
     </p:documentation>
 
@@ -50,9 +50,9 @@
     
     <p:import href="http://www.daisy.org/pipeline/modules/braille/zedai-to-pef/xproc/zedai-to-pef.xpl"/>
 
-    <p:variable name="stylesheet" select="'http://it.torchtrust.org/pipeline/braille/zedai.css'"/>
+    <p:variable name="stylesheet" select="'http://www.torchtrust.org/pipeline/braille/zedai.css'"/>
     <p:variable name="preprocessor" select="''"/>
-    <p:variable name="translator" select="'http://it.torchtrust.org/pipeline/braille/zedai-translator.xpl'"/>
+    <p:variable name="translator" select="'http://www.torchtrust.org/pipeline/braille/zedai-translator.xpl'"/>
 
     <!-- ============ -->
     <!-- ZEDAI TO PEF -->
