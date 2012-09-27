@@ -1,0 +1,89 @@
+/* ------------------------------------------------------------- */
+/*     http://www.torchtrust.org/pipeline/braille/zedai.css      */
+/*                                                               */
+/*   Copyright 2012 by Torch Trust                               */
+/*   Contact:                                                    */
+/*       http://www.torchtrust.org/                              */
+/*       paulw.torchtrust@gmail.com                              */
+/*                                                               */
+/* ------------------------------------------------------------- */
+
+/* ------------------------------------------------------------- */
+/*                           general                             */
+/* ------------------------------------------------------------- */
+
+head {
+    display: none;
+}
+
+/* ------------------------------------------------------------- */
+/*                           blocks                              */
+/* ------------------------------------------------------------- */
+
+section,
+frontmatter,
+bodymatter,
+block,
+lngroup,
+ln,
+object,
+verse {
+    display: block;
+}
+
+/* ------------------------------------------------------------- */
+/*                           headings                            */
+/* ------------------------------------------------------------- */
+
+h {
+    display: block;
+    text-align: center;
+    margin-top: 1;
+    margin-bottom: 1;
+    margin-left: 3;
+    margin-right: 3;
+    page-break-after: avoid;
+}
+
+bodymatter > section > h { 
+    page-break-before: always; 
+    border-top: ⠒;
+}
+
+bodymatter > section > section > h {
+    margin-top: 0;
+}
+
+bodymatter > section > section > section > h {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+bodymatter > section > section > section > section > h {
+    text-align: left;
+    margin-left: 5;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* ------------------------------------------------------------- */
+/*                          paragraphs                           */
+/* ------------------------------------------------------------- */
+
+p {
+    display: block;
+    text-indent: 2;
+}
+
+p.centeredtext {
+    text-align: center;
+}
+
+p.attribution { 
+    text-align:right; 
+    margin-left:4; 
+    page-break-before:avoid; 
+} 
+
+
