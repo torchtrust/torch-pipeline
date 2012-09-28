@@ -16,7 +16,7 @@
             <dt>Organization:</dt>
             <dd px:role="organization" href="http://www.torchtrust.org/">Torch Trust</dd>
             <dt>E-mail:</dt>
-            <dd><a px:role="contact" href="mailto:paulw.torchtrust@gmail.com">paulw.torchtrust@gmail.com</a></dd>
+            <dd>><a px:role="contact" href="mailto:paulw@torchtrust.org">paulw@torchtrust.org</a></dd>
         </dl>
     </p:documentation>
 
