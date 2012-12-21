@@ -7,10 +7,7 @@
   <uri name="http://www.torchtrust.org/pipeline/braille/zedai-preprocessor.xpl" uri="../xml/xproc/zedai-preprocessor.xpl"/>
   <uri name="http://www.torchtrust.org/pipeline/braille/zedai-translator.xpl" uri="../xml/xproc/zedai-translator.xpl"/>
   <uri name="http://www.torchtrust.org/pipeline/braille/zedai.css" uri="../css/zedai.css"/>
-  <nextCatalog catalog="org:daisy:pipeline:modules:file-utils" />
-  <nextCatalog catalog="org:daisy:pipeline:modules:dtbook-utils"/>
-  <nextCatalog catalog="org:daisy:pipeline:modules:dtbook-to-zedai" />
+  <nextCatalog catalog="org:daisy:pipeline:modules:braille:xml-to-pef" />
   <nextCatalog catalog="org:daisy:pipeline:modules:braille:zedai-to-pef" />
-  <nextCatalog catalog="org:daisy:pipeline:modules:braille:pef-to-html" />
-  <nextCatalog catalog="org:daisy:pipeline:modules:braille:pef-calabash" />
+  <nextCatalog catalog="org:daisy:pipeline:modules:braille:dtbook-to-pef" />
 </catalog>
